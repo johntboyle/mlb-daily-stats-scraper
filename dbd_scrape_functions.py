@@ -97,4 +97,4 @@ def scrape_data(start_date, end_date):
 
 
 if __name__ == "__main__":
-    scrape_data(date(2021, 4, 17), date(2021, 4, 17))
+    scrape_data(date(2021, 4, 17), date(2021, 4, 18))

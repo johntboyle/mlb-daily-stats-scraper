@@ -69,7 +69,7 @@ def process_league_data(data):
 
 def display_team_data(data):
     team = list(data.values())
-    team.sort(key=lambda x: x.ab, reverse=True)
+    team.sort(key=lambda x: x.hr, reverse=True)
     total = Player('Total Stats:')
     for player in team:
         total.add_basic_hitting_stats(player.hits, player.ab, player.r, player.hr, player.rbi, player.sb)
